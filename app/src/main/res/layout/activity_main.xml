@@ -29,12 +29,14 @@
         android:layout_height="79dp"
         android:text="Начать"
         android:textSize="24sp"
+        app:iconTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.384" />
+        app:layout_constraintVertical_bias="0.384"
+        app:strokeColor="#FF5722" />
 
     <TextView
         android:id="@+id/textView2"
